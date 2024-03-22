@@ -1,0 +1,39 @@
+.containerConnect {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.wrapperConnect {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.imgConnect {
+  max-width: 610px;
+  max-height: 691px;
+}
+.textBlockConnect {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 460px;
+}
+.wrapp_WalletOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.wrapperRightSide_Connect {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+@media (max-width: 940px) {
+  .imgConnect {
+    display: none;
+  }
+  .wrapperRightSide_Connect {
+    justify-content: center;
+    align-items: center;
+  }
+}

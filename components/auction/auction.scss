@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.wrapper_Auction {
+  border-radius: 20px;
+  padding: 30px;
+  width: 295px;
+  height: 147px;
+  backdrop-filter: blur(10px);
+  background: rgba(59, 59, 59, 0.5);
+}
+.auction {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  color: #fff;
+}
+.TimeCount {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #fff;
+}
+.timeEnd {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper_nameTime {
+  display: flex;
+  gap: 38px;
+  margin-top: 5px;
+}
+.nameTime {
+  width: 53px;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  color: #fff;
+}
+.auction_column {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #fff;
+}
+.block_timeCount_nameTime {
+  width: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}

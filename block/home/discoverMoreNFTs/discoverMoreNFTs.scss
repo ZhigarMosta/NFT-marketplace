@@ -1,0 +1,42 @@
+.container_discoverMoreNFTs {
+  display: flex;
+  justify-content: center;
+}
+.wrapper_discoverMoreNFTs {
+  display: flex;
+  width: 1050px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.wrapp_ArtistCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.wrapper_nameSection_discoverMoreNFTs{
+	display: flex;
+	width: 100%;
+	max-width: 1050px;
+	justify-content: space-between;
+}
+.nameSection_discoverMoreNFTs{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+@media (max-width: 540px) {
+  .wrapper_nameSection_discoverMoreNFTs {
+    display: flex;
+    width: 100%;
+    max-width: 1050px;
+    justify-content: space-between;
+		flex-direction: column;
+		gap: 10px;
+  }
+	.media_Btn_discoverMoreNFTs{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

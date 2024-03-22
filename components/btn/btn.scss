@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.btn_text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #fff;
+  font-style: normal;
+}
+.btn_singUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  gap: 12px;
+  height: 62px;
+  background-color: #a259ff;
+  border-radius: 20px;
+  &:hover {
+    background-color: #8223fe;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: #4e00b4;
+    box-shadow: none;
+    transform: scale(0.95);
+  }
+}
+.btn_footer {
+  border-radius: 20px;
+  padding: 0px 50px;
+  height: 60px;
+  background-color: #a259ff;
+  &:hover {
+    background-color: #8223fe;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: #4e00b4;
+    box-shadow: none;
+    transform: scale(0.95);
+  }
+  .btn_img {
+    display: none;
+  }
+}
+.btn_in_input {
+  border-radius: 20px;
+  padding: 0px 50px;
+  height: 60px;
+  background: #a259ff;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  &:hover {
+    background-color: #8223fe;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: #4e00b4;
+    box-shadow: none;
+    transform: scale(0.95);
+  }
+  .btn_text {
+    font-style: normal;
+  }
+}
+.btn_light {
+  border-radius: 20px;
+  padding: 22px 50px;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  &:hover {
+    background-color: #8223fe;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: #4e00b4;
+    box-shadow: none;
+    transform: scale(0.95);
+  }
+  .btn_text {
+    color: #2b2b2b;
+    font-style: normal;
+  }
+}
+.dtn_dark {
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  padding: 0px 50px;
+  height: 60px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  &:hover {
+    background-color: #8223fe;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: #4e00b4;
+    box-shadow: none;
+    transform: scale(0.95);
+  }
+  .btn_text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+  }
+}
+.listBtn {
+  font-family: "Space Mono", monospace;
+  border-radius: 20px;
+  padding: 32px 15px;
+  height: 100px;
+  background: #a259ff;
+  display: flex;
+  align-items: center;
+  &:hover {
+    background-color: #8223fe;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: #4e00b4;
+    box-shadow: none;
+    transform: scale(0.95);
+  }
+  .btn_text {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+  }
+}
+.imginput {
+  margin-left: -209px;
+}
+.Noimginput {
+  margin-left: -189px;
+}
+.longBtn {
+  border-radius: 20px;
+  width: 330px;
+  height: 46px;
+  background: #a259ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: #8223fe;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: #4e00b4;
+    box-shadow: none;
+    transform: scale(0.95);
+  }
+  .btn_text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+  }
+}
+@media (max-width: 650px) {
+  .btn_in_input {
+    border-radius: 20px;
+    padding: 0px 25px;
+    height: 60px;
+    background: #a259ff;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    .btn_text {
+      font-style: normal;
+    }
+  }
+  .imginput {
+    margin-left: -150px;
+  }
+  .Noimginput {
+    margin-left: -133px;
+  }
+}
+@media (max-width: 480px) {
+  .imginput {
+    margin-left: 0px;
+  }
+  .Noimginput {
+    margin-left: 0px;
+  }
+}

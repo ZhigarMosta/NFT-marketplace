@@ -1,0 +1,23 @@
+.wrapper_trendingCollection {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.user_trendingCollection {
+  margin-top: 15px;
+}
+.container_trendingCollection {
+  display: flex;
+  justify-content: center;
+}
+.wrapp_CollectionCard {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.nameSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

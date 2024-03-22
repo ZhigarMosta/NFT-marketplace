@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+table {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1050px;
+  margin: 40px auto;
+}
+tr {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+}
+td {
+  display: flex;
+  align-items: center;
+}
+.id {
+  width: 30px;
+}
+.wrapperId {
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  background: #2b2b2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .text_main {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #858584;
+  }
+}
+.artist {
+  width: 380px;
+}
+.change {
+  width: 160px;
+  .text_main {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #00ac4f;
+  }
+}
+.nftsSold {
+  width: 160px;
+  .text_main {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+  }
+}
+.volume {
+  width: 160px;
+  .text_main {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+  }
+}
+.background {
+  background: #3b3b3b;
+  border-radius: 20px;
+}
+.blockArtist {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .text_main {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #fff;
+  }
+}
+.headerTable {
+  border: solid 1px #3b3b3b;
+  border-radius: 20px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  th {
+    text-align: start;
+  }
+}
+.text_head {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #858584;
+}
+.font_change_table {
+  font-family: "Space Mono", monospace;
+}
+@media (max-width: 950px) {
+  .blockArtist {
+    .text_main {
+      font-size: 13px;
+    }
+  }
+  .change {
+    .text_main {
+      font-size: 10px;
+    }
+  }
+  .nftsSold {
+    .text_main {
+      font-size: 10px;
+    }
+  }
+  .volume {
+    .text_main {
+      font-size: 10px;
+    }
+  }
+  .text_head {
+    font-size: 10px;
+  }
+}
+@media (max-width: 670px) {
+  .blockArtist {
+    .text_main {
+      font-size: 10px;
+    }
+  }
+}

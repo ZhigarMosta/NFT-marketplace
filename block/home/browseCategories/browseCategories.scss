@@ -1,0 +1,16 @@
+.container_browseCategories {
+  display: flex;
+  justify-content: center;
+}
+.wrapper_browseCategories {
+  display: flex;
+  width: 1050px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.wrapp_CategoryCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}

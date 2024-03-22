@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+  margin-top: 80px;
+}
+
+.bloks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 530px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 80px;
+  }
+}

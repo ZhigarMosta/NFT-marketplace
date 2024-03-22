@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.container_footer {
+  padding: 40px 195px;
+  width: 100%;
+  min-height: 264px;
+  background: #3b3b3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper_footer {
+  display: flex;
+  gap: 107px;
+}
+.container_navigation_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.navigation_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container_input_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 420px;
+}
+.text_input_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.main_footer {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #fff;
+}
+.deck_footer {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #cccccc;
+	max-width: 330px;
+}
+.link_footer {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #cccccc;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #a259ff;
+    transition: width 0.3s;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+  &:hover {
+    color: #a259ff;
+  }
+}
+@media (max-width: 650px) {
+  .link_footer {
+    font-size: 12px;
+  }
+  .wrapper_footer {
+    display: flex;
+    gap: 25px;
+  }
+  .container_input_footer {
+    width: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper_footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation_footer,
+  .main_navigation_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text_input_footer {
+    text-align: center;
+  }
+  .container_footer {
+    padding: 40px 0px;
+  }
+}

@@ -1,0 +1,73 @@
+.imageNFThighlight_container {
+  width: 100%;
+  min-height: 640px;
+  background-image: url(../../../img/home/NFThighlightSection/NFTHighlight.png);
+  background-size: cover;
+  background-position: center;
+  padding: 360px 195px 60px 195px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper_imd_NFThighlight {
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 151px;
+  height: 44px;
+  background: #3b3b3b;
+  display: flex;
+  gap: 12px;
+}
+.user_nameNFThighlight {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+}
+.wrapperNFThighlight {
+  display: flex;
+  width: 1050px;
+  justify-content: space-between;
+}
+.container_userNFThighlight {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.userBlock_NFThighlight {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.wrapper_Auction_NFThighlight {
+  display: flex;
+  align-items: end;
+}
+@media (max-width: 610px) {
+  .wrapperNFThighlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .imageNFThighlight_container {
+    padding: 60px 195px 60px 195px;
+  }
+  .container_userNFThighlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+  .btn_media_NFThighlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  .imageNFThighlight_container {
+    padding: 60px;
+  }
+}

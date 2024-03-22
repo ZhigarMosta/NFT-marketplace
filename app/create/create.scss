@@ -1,0 +1,45 @@
+.containerCreate {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.wrapperCreate {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.imgCreare {
+  max-width: 610px;
+  max-height: 691px;
+}
+.containerInputBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.wrapper_input_create {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.textBlockCreate {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 460px;
+}
+.wrapperRightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+@media (max-width: 940px) {
+  .imgCreare {
+    display: none;
+  }
+  .containerInputBtn {
+    justify-content: center;
+    align-items: center;
+  }
+}

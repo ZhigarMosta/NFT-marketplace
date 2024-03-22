@@ -1,0 +1,15 @@
+.wrapper_HowItWorks {
+  display: flex;
+	flex-direction: column;
+  gap: 60px;
+}
+.container_HowItWorks {
+  display: flex;
+  justify-content: center;
+}
+.wrapp_InfoCard{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	flex-wrap: wrap;
+}

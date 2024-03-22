@@ -1,0 +1,37 @@
+.container_topCreators {
+  display: flex;
+  justify-content: center;
+}
+.wrapper_topCreators {
+  display: flex;
+  width: 1050px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.wrapp_ArtistCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.wrapper_nameSection {
+  display: flex;
+  width: 100%;
+  max-width: 1050px;
+  justify-content: space-between;
+}
+@media (max-width: 540px) {
+  .wrapper_nameSection {
+    display: flex;
+    width: 100%;
+    max-width: 1050px;
+    justify-content: space-between;
+		flex-direction: column;
+		gap: 10px;
+  }
+	.Btn_topCreators{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
