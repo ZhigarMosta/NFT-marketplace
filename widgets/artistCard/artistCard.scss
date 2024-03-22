@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.wrapper_artistCard {
+  border-radius: 20px;
+  padding: 20px;
+  width: 240px;
+  height: 238px;
+  background: #3b3b3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper_id_artistCard {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 18px;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  background: #2b2b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.id_artistCard {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #858584;
+}
+.artistCard_userName {
+  margin-top: 20px;
+}
+.wrapper_sales_artistCard {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+.artistCard_TotalSales {
+	font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  color: #858584;
+}
+.artistCard_Sales {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+}
+.wrapper_avatarArtistCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+}
+.avatarArtistCard {
+  width: 60px;
+}

@@ -1,0 +1,28 @@
+.wrapper_inputSubscribe {
+  display: flex;
+}
+.inputSubscribe {
+  border-radius: 20px;
+  padding: 16px 0px 16px 20px;
+  width: 420px;
+  height: 60px;
+  background: #fff;
+  color: #2b2b2b;
+}
+@media (max-width: 650px) {
+  .inputSubscribe {
+    font-size: 11px;
+		width: 300px;
+  }
+}
+@media (max-width:480px) {
+	.wrapper_inputSubscribe {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+	}
+	.inputSubscribe{
+		width: 200px;
+	}
+}

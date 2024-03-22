@@ -1,0 +1,59 @@
+.container_input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+.container_inputCreators {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+.line {
+  content: "";
+  height: 2px;
+  width: 100%;
+  margin-top: 14px;
+}
+.input_radio {
+  -webkit-appearance: none;
+}
+.input_radio:checked + .valuesRadio {
+  .nameCollectionsRadio {
+    color: #fff;
+  }
+  .countCollections {
+    background: #858584;
+  }
+}
+.input_radio:checked + .valuesRadio + .line {
+  background-color: #858584;
+}
+.countCollections {
+  border-radius: 20px;
+  padding: 5px 10px;
+  height: 32px;
+  background: #3b3b3b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  margin-left: 16px;
+}
+.nameCollectionsRadio {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: capitalize;
+  text-align: center;
+  color: #858584;
+}
+@media (max-width: 620px) {
+  .nameCollectionsRadio {
+    font-size: 13px;
+  }
+  .countCollections {
+    padding: 3px 6px;
+    height: 32px;
+    font-size: 10px;
+  }
+}

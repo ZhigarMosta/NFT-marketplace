@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.NFTCard_img {
+  border-radius: 20px 20px 0 0;
+  width: 330px;
+  height: 296px;
+}
+.wrapper_NFTCard_text {
+  padding: 20px 30px 25px 30px;
+  width: 330px;
+  height: 173px;
+  border-radius: 0 0 20px 20px;
+}
+.wrapper_NFTCard_prise {
+  display: flex;
+  width: 270px;
+  justify-content: space-between;
+}
+.NFTCard_prise {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 25px;
+}
+.NFTCard_prise_text {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  color: #858584;
+}
+.NFTCard_values {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+}
+.background-3d_NFTCard {
+  background: #3b3b3b;
+}
+.background-2d_NFTCard {
+  background: #2b2b2b;
+}

@@ -1,0 +1,47 @@
+.img_banner {
+  border-radius: 20px 20px 0 0;
+  width: 510px;
+  height: 401px;
+}
+.text_wrapper {
+  border-radius: 0 0 20px 20px;
+  padding: 20px;
+  width: 510px;
+  height: 109px;
+  background: #3b3b3b;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.text_up {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #fff;
+}
+.wrapper_text_botton {
+  display: flex;
+  gap: 12px;
+}
+.img_animakid {
+  border-radius: 120px;
+  width: 24px;
+  height: 24px;
+}
+.text_animakid {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+}
+@media (max-width: 560px) {
+  .img_banner {
+    width: 300px;
+    height: 235px;
+  }
+  .text_wrapper {
+    width: 300px;
+    height: 109px;
+  }
+}
